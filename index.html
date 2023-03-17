@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <section class="agendamento--main">
+            <h1 class="agendamento--titulo-principal">
+                Agendamento
+            </h1>
+            <h3 class="agendamento--titulo-secundario">
+                Calendário:
+            </h3>
+        </section>
+    
+        <section class="dias--semana">
+            <table class="table--dias-semana">
+                <tr class="indice--tabela">
+                <th>domingo</th>
+                <th>segunda-feira</th>
+                <th>terça-feira</th>
+                <th>quarta-feira</th>
+                <th>quinta-feira</th>
+                <th>sexta-feira</th>
+                <th>sabado</th>
+                </tr>
+    
+               <tr>
+                <td class="domingo">30</td>
+                <td class="semana">31</td>
+                <td class="semana">1</td>
+                <td class="semana">2</td>
+                <td class="semana">3</td>
+                <td class="semana">4</td>
+                <td class="sabado">5</td>
+               </tr>
+    
+               <tr>
+                <td  class="domingo">6</td>
+                <td class="semana">7</td>
+                <td class="semana">8</td>
+                <td class="semana">9</td>
+                <td class="semana">10</td>
+                <td class="semana">11</td>
+                <td class="sabado">12</td>
+               </tr>
+    
+               <tr>
+                <td  class="domingo">13</td>
+                <td class="semana">14</td>
+                <td class="semana">15</td>
+                <td class="semana">16</td>
+                <td class="semana">17</td>
+                <td class="semana">17</td>
+                <td class="sabado">18</td>
+               </tr>
+    
+               <tr>
+                <td  class="domingo">19</td>
+                <td class="semana">20</td>
+                <td class="semana">21</td>
+                <td class="semana">22</td>
+                <td class="semana">23</td>
+                <td class="semana">24</td>
+                <td class="sabado">25</td>
+               </tr>
+    
+               <tr>
+                <td  class="domingo">26</td>
+                <td class="semana">27</td>
+                <td class="semana">28</td>
+                <td class="semana">29</td>
+                <td class="semana">30</td>
+                <td class="semana">1</td>
+                <td class="sabado">2</td>
+               </tr>
+            </table>
+        </section>
+    
+        <section class="horarios--disponiveis">
+            <div class="horarios">
+                <h1>Horários Disponíveis:</h1>
+            </div>
+            <ul class="lista--horarios">
+                <li>09:00 - 10:00</li>
+                <li>10:00 - 11:00</li>
+                <li>11:00 - 12:00</li>
+                <li class="almoco">almoço</li>
+                <li>13:00 - 14:00</li>
+                <li>14:00 - 15:00</li>
+                <li>15:00 - 16:00</li>
+                <li>16:00 - 17:00</li>
+                <li>17:00 - 18:00</li>
+            </ul>
+        </section>
+    
+        <section class="agendamento">
+            <div class="titulo">
+                <h1 style="margin-bottom: 10px;">Agenda</h1>
+            </div>
+    
+            <div class="data">
+                <span style="padding-bottom: 10px;">Data:</span>
+                <input type="date" class="type--data">
+            </div>
+    
+            <div class="hora">
+                <span style="padding-bottom: 10px;">Hora:</span>
+                <select class="type--data" name="hora" id="hora">
+                    <option value="09:00">09:00 - 10:00</option>
+                    <option value="10:00">10:00 - 11:00</option>
+                    <option value="11:00">11:00 - 12:00</option>
+                    <option value="13:00">13:00 - 14:00</option>
+                    <option value="14:00">14:00 - 15:00</option>
+                    <option value="15:00">15:00 - 16:00</option>
+                    <option value="16:00">16:00 - 17:00</option>
+                    <option value="17:00">17:00 - 18:00</option>           
+                </select>
+            </div>
+    
+            <div class="button--agendar">
+                <button>Agendar</button>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
